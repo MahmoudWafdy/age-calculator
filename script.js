@@ -58,7 +58,6 @@ const onClickHandler = ()=>{
     const dayEllement = document.querySelector(".card__input[name='day']");
     const monthEllement = document.querySelector(".card__input[name='month']");
     const resultEllement = document.querySelector(".card__resultValue");
-debugger;
     if(!isDateValid(dayEllement,monthEllement,yearEllement)) {
         resultEllement.textContent = "--";
         return;
